@@ -1,0 +1,44 @@
+{
+  "name": "exmg-ckeditor",
+  "version": "1.0.0",
+  "description": "Paper(material design) style ckediot input",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^1.0.0-alpha.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "@ckeditor/ckeditor5-editor-classic": "^0.8.0",
+    "@ckeditor/ckeditor5-essentials": "^0.3.0",
+    "@ckeditor/ckeditor5-autoformat": "^0.6.0",
+    "@ckeditor/ckeditor5-basic-styles": "^0.9.0",
+    "@ckeditor/ckeditor5-block-quote": "^0.2.0",
+    "@ckeditor/ckeditor5-heading": "^0.10.0",
+    "@ckeditor/ckeditor5-image": "^0.7.0",
+    "@ckeditor/ckeditor5-link": "^0.8.0",
+    "@ckeditor/ckeditor5-list": "^0.7.0",
+    "@ckeditor/ckeditor5-paragraph": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisekelley/exmg-ckeditor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisekelley/exmg-ckeditor/issues"
+  },
+  "homepage": "https://github.com/chrisekelley/exmg-ckeditor#readme"
+}

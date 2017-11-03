@@ -6,11 +6,12 @@
 
     <title>exmg-ckeditor demo</title>
 
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
 
-    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
-    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <!--<link rel="import" href="/bower_components/iron-demo-helpers/demo-pages-shared-styles.html">-->
+    <!--<link rel="import" href="/bower_components/iron-demo-helpers/demo-snippet.html">-->
     <link rel="import" href="../exmg-ckeditor.html">
+    <link rel="import" href="/bower_components/imd/imd.html">
 
     <style is="custom-style" include="demo-pages-shared-styles">
       .centered {
@@ -19,19 +20,21 @@
     </style>
   </head>
   <body>
-    <div class="vertical-section-container centered">
+    <!--<div class="vertical-section-container centered">-->
+    <div>
       <h3>Basic exmg-ckeditor demo</h3>
-      <demo-snippet>
-        <template>
-          <exmg-ckeditor label="Text Input" value="<h3>Test</h3>" required auto-validate></exmg-ckeditor>
-        </template>
-      </demo-snippet>
+      <!--<demo-snippet>-->
+        <!--<template>-->
+          <!--<exmg-ckeditor label="Text Input" value="<h3>Test</h3>" required auto-validate></exmg-ckeditor>-->
+          <exmg-ckeditor value="<h3>Test</h3>" label="Text Input" always-float-label></exmg-ckeditor>
+        <!--</template>-->
+      <!--</demo-snippet>-->
 
-      <demo-snippet>
-        <template>
-          <exmg-ckeditor label="Text Input" config='{"uiColor":"#9AB8F3"}' value="<h3>Test</h3>" required auto-validate></exmg-ckeditor>
-        </template>
-      </demo-snippet>
+      <!--<demo-snippet>-->
+        <!--<template>-->
+          <!--&lt;!&ndash;<exmg-ckeditor label="Text Input" config='{"uiColor":"#9AB8F3"}' value="<h3>Test</h3>" required auto-validate></exmg-ckeditor>&ndash;&gt;-->
+        <!--</template>-->
+      <!--</demo-snippet>-->
 
     </div>
   </body>
